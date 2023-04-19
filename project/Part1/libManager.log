@@ -1,0 +1,61 @@
+\o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/11/2017 00:41 (sjfhw302) $
+\o Sub version:		sub-version  s059 
+\o Arguments:		-mpssession virtuoso1648 -mpshost pyrite.clear.rice.edu 
+\o Working Directory:	pyrite.clear.rice.edu:/storage-home/s/smh19/elec423/project/Part1
+\o 64-bit offsets
+\o changeWorkingDir("/storage-home/s/smh19/elec423/project/Part1") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Qt version: 		4.8.5
+\o Log file is "/storage-home/s/smh19/elec423/project/Part1/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(551 83 750 608))
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "Part1_Adder"
+\a cdsLibManager->libLineEdit->value = "Part1_Adder"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "1Bit_Adder_TB"
+\a cdsLibManager->cellLineEdit->value = "1Bit_Adder_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "1Bit_Adder_TB"
+\a cdsLibManager->cellLineEdit->value = "1Bit_Adder_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "Part1_Adder"
+\a cdsLibManager->libLineEdit->value = "Part1_Adder"
+\a cdsLibManager->cellListBox->value = "1Bit_Adder_TB"
+\a cdsLibManager->cellLineEdit->value = "1Bit_Adder_TB"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrResizeWindow(cdsLibManager list(0 0 750 608))
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)

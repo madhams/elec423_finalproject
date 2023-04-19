@@ -1,0 +1,70 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.7 - CAT35 10/11/2017 00:42 (sjfhw302) $
+\o Sub version:		sub-version  s059 
+\o Arguments:		-cdslib /storage-home/s/smh19/elec423/project/Part1/cds.lib -mpssession virtuoso19958 -mpshost pyrite.clear.rice.edu 
+\o Working Directory:	pyrite.clear.rice.edu:/storage-home/s/smh19/elec423/project/Part1
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.8.5
+\a nrResizeWindow(cdsLibEditor list(34 57 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrListItemAction(cdsLibEditor->mainTable 6 0)
+\o Active cell: 6 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 6 0 "Part1_Adder")
+\a nrListItemAction(cdsLibEditor->mainTable 6 1)
+\o Active cell: 6 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "$ ")
+\o QUESTION (CLE-200): The directory "$ " \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrSetCurrentWindow(needCreateDialog)
+\a nrResizeWindow(needCreateDialog list(99 117 350 200))
+\a needCreateDialog->cancelButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 5 1)
+\o Active cell: 5 1 "$PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 6 1)
+\o Active cell: 6 1 "$ "
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "$ storage-home/s/smh19/elec423/project/")
+\o QUESTION (CLE-200): The directory "$ storage-home/s/smh19/elec423/project/" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrResizeWindow(needCreateDialog list(97 117 355 200))
+\a nrSetCurrentWindow(needCreateDialog)
+\a needCreateDialog->cancelButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "$ storage-home/s/smh19/elec423/project/Part1/Part1_Adder")
+\o QUESTION (CLE-200): The directory "$ storage-home/s/smh19/elec423/project/Part1/Part1_Adder" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrSetCurrentWindow(needCreateDialog)
+\a nrResizeWindow(needCreateDialog list(49 117 450 200))
+\a needCreateDialog->cancelButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 7 0)
+\o Active cell: 7 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 6 1)
+\o Active cell: 6 1 "$ storage-home/s/smh19/elec423/project/Part1/Part1_Adder"
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "$ /storage-home/s/smh19/elec423/project/Part1/Part1_Adder")
+\o QUESTION (CLE-200): The directory "$ /storage-home/s/smh19/elec423/project/Part1/Part1_Adder" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrResizeWindow(needCreateDialog list(47 117 454 200))
+\a nrSetCurrentWindow(needCreateDialog)
+\a needCreateDialog->cancelButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "$ elec423/project/Part1/Part1_Adder")
+\o QUESTION (CLE-200): The directory "$ elec423/project/Part1/Part1_Adder" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrSetCurrentWindow(needCreateDialog)
+\a needCreateDialog->cancelButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "/storage-home/s/smh19/elec423/project/Part1/Part1_Adder")
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "$/storage-home/s/smh19/elec423/project/Part1/Part1_Adder")
+\o QUESTION (CLE-200): The directory "$/storage-home/s/smh19/elec423/project/Part1/Part1_Adder" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrSetCurrentWindow(needCreateDialog)
+\a needCreateDialog->cancelButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 6 1 "/storage-home/s/smh19/elec423/project/Part1/Part1_Adder")
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

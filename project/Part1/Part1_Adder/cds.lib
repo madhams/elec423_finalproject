@@ -1,0 +1,4 @@
+SOFTINCLUDE /clear/apps/cadence/IC617/share/cdssetup/cds.lib
+#Removed by ddDeleteObj: DEFINE Project /storage-home/s/smh19/elec423/project/Part1/Part1_Adder/Project
+#Removed by ddDeleteObj: DEFINE Project /storage-home/s/smh19/elec423/project/Part1/Part1_Adder/Project
+DEFINE Project /storage-home/s/smh19/elec423/project/Part1/Part1_Adder/Project
